@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE imgdsp>
+<imgdsp>
+    <programs>
+        <program name="Sample and hold">
+            <params>
+			    <param name="Vertical:" min="1.0" current="1.0" max="10.0"/>
+				<param name="Horizontal:" min="1.0" current="1.0" max="10.0"/>
+            </params>
+        </program>
+		<program name="Bilinear">
+            <params>
+				<param name="Vertical:" min="1.0" current="1.0" max="10.0"/>
+				<param name="Horizontal:" min="1.0" current="1.0" max="10.0"/>
+			</params>
+        </program>
+        <program name="Bicubic">
+            <params>
+				<param name="Vertical:" min="1.0" current="1.0" max="10.0"/>
+				<param name="Horizontal:" min="1.0" current="1.0" max="10.0"/>
+			</params>
+        </program>
+		<program name="Transform">
+            <params>
+			    <param name="k1:" min="-1.0" current="0" max="1.0"/>
+				<param name="k2:" min="-1.0" current="0" max="1.0"/>
+			</params>
+        </program>
+		<program name="Transform Bilinear">
+            <params>
+			    <param name="k1:" min="-1.0" current="0" max="1.0"/>
+				<param name="k2:" min="-1.0" current="0" max="1.0"/>
+			</params>
+        </program>
+        <program name="Inverse Transform">
+            <params>
+			    <param name="k1:" min="-1.0" current="0" max="1.0"/>
+				<param name="k2:" min="-1.0" current="0" max="1.0"/>
+			</params>
+        </program>
+		<program name="Inverse Transform Bilinear">
+            <params>
+			    <param name="k1:" min="-1.0" current="0" max="1.0"/>
+				<param name="k2:" min="-1.0" current="0" max="1.0"/>
+			</params>
+        </program>
+    </programs>
+    <in_imgs>
+	    <in_img file_name="lena.bmp"/>
+		<in_img file_name="baboon.bmp"/>
+        <in_img file_name="green_cat.jpg"/>
+        <in_img file_name="image1.bmp"/>
+		<in_img file_name="clock.bmp"/>
+		<in_img file_name="tennis.bmp"/>
+        <in_img file_name="playing_kitten.jpg"/>
+		<in_img file_name="pool.png"/>
+        <in_img file_name="pool1.png"/>
+        <in_img file_name="lena00.bmp"/>
+        <in_img file_name="lena11.bmp"/>
+        <in_img file_name="lena10333.bmp"/>
+        <in_img file_name="lena03330333.bmp"/>
+        <in_img file_name="lena06660333.bmp"/>
+        <in_img file_name="lena06660666.bmp"/>
+        <in_img file_name="lenaminus1minus1.bmp"/>
+        <in_img file_name="lenaminus1minus0333.bmp"/>
+        <in_img file_name="lenaminus0666minus1.bmp"/>
+        <in_img file_name="lenaminus0666minus0333.bmp"/>
+        <in_img file_name="lenaminus0666minus0666.bmp"/>  
+        <in_img file_name="bulge.png"/>  
+        <in_img file_name="CatWithGreenEyes.png"/> 
+    </in_imgs>
+    <out_imgs>
+        <out_img file_name="processed_img.jpg"/>
+    </out_imgs>
+</imgdsp>
